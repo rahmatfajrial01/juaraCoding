@@ -28,9 +28,9 @@ const PageCategories = () => {
     return (
         <Container>
             <h3 className='text-center my-5'>Users</h3>
-            <div className='d-flex justify-content-center gap-5'>
-                <div className='w-75'>
-                    <Table striped bordered hover>
+            <div className='d-flex justify-content-center gap-4'>
+                <div>
+                    <Table style={{ width: '600px' }} striped bordered hover>
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -65,7 +65,7 @@ const PageCategories = () => {
                         </tbody>
                     </Table>
                 </div>
-                <div className='w-25'>
+                <div>
                     {
                         user ?
                             <div>
